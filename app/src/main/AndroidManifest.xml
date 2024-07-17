@@ -12,6 +12,10 @@
         android:theme="@style/Theme.DAM__Examen_Final_Navarro"
         tools:targetApi="31">
         <activity
+            android:name=".NotasActivity"
+            android:exported="false"
+            android:label="@string/title_activity_notas" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
